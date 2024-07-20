@@ -1,0 +1,26 @@
+{
+  "name": "proyecto_web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon infex.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "es": "^0.8.0",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
+  }
+}
